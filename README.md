@@ -7,8 +7,8 @@ Andamios para el proyecto ESP-IDF para el Taller 2
 ## Mapa repositorio
 
 ```text
-T
-├2_pena── CMakeLists.txt          # ESP-IDF project build configuration
+T2_pena
+├── CMakeLists.txt          # ESP-IDF project build configuration
 ├── sdkconfig.default       # Default ESP-IDF configuration
 ├── main/
 │   ├── main.c              # Application entry point
