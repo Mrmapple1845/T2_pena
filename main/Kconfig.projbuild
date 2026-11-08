@@ -13,8 +13,7 @@ menu "SEyTR - Taller 2"
         range 1 500
         default 20
         help
-            Tiempo de procesador que ocupa preparar cada informe. Se simula con
-            una espera activa de esta duracion. Tiene que ser menor que el
-            periodo del registro: si no, el proyecto no compila.
+            Tiempo de cálculo de la tarea `carga_1` y `carga_2` asignado al `NUCLEO0`,
+            admiten un valor entre 1 y 500 ms (por defecto 20 ms).
 
 endmenu

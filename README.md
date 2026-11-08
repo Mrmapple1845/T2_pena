@@ -32,6 +32,6 @@ T2_pena
 
 ## Configuración
 
-En `menuconfig`, el menú **SEyTR - Taller 2** permite ajustar (`CONFIG_SEYTR_TRABAJO_REGISTRO_MS`): tiempo de
-pel trabajo de la tarea `trabajo` rocesador simulado para preparar cada informe, entre 1 y 500 ms (por defecto,
-40 ms). Debe ser mestro; si no, el proyecto no compila.
+En `menuconfig`, el menú **SEyTR - Taller 2** permite ajustar los siguientes parámetros.
+
+- `CONFIG_SEYTR_TRABAJO_REGISTRO_MS`: tiempo de cálculo de la tarea `carga_1` y `carga_2` asignado al `NUCLEO0`, admiten un valor entre 1 y 500 ms (por defecto 20 ms).
