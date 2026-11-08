@@ -1,0 +1,20 @@
+# Las opciones declaradas en un Kconfig.projbuild aparecen en el nivel superior
+# del menu de configuracion, junto a las de ESP-IDF, y no dentro del submenu de
+# configuracion de componentes. Se convierten en macros CONFIG_... disponibles
+# desde el codigo.
+#
+# Los pines no estan aqui: estan en main/pines.h, que es donde se declaran los
+# pines del proyecto.
+
+menu "SEyTR - Taller 2"
+
+    config SEYTR_TRABAJO_REGISTRO_MS
+        int "Trabajo de cada informe, en milisegundos"
+        range 1 500
+        default 20
+        help
+            Tiempo de procesador que ocupa preparar cada informe. Se simula con
+            una espera activa de esta duracion. Tiene que ser menor que el
+            periodo del registro: si no, el proyecto no compila.
+
+endmenu

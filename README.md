@@ -29,3 +29,9 @@ T2_pena
 | LED | `GPIO_NUM_4` | Encendido: `1` |
 | I2C SDA (datos) | `GPIO_NUM_8` | — |
 | I2C SCL (reloj) | `GPIO_NUM_9` | — |
+
+## Configuración
+
+En `menuconfig`, el menú **SEyTR - Taller 2** permite ajustar (`CONFIG_SEYTR_TRABAJO_REGISTRO_MS`): tiempo de
+pel trabajo de la tarea `trabajo` rocesador simulado para preparar cada informe, entre 1 y 500 ms (por defecto,
+40 ms). Debe ser mestro; si no, el proyecto no compila.
